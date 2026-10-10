@@ -1,0 +1,16 @@
+{
+  "name": "openthumb",
+  "owner": {
+    "name": "OpenThumb"
+  },
+  "plugins": [
+    {
+      "name": "iphone-use",
+      "source": "./",
+      "description": "Let your coding agent operate a real iPhone over USB."
+    }
+  ],
+  "metadata": {
+    "description": "OpenThumb agent tools: operate a real phone from your coding agent."
+  }
+}

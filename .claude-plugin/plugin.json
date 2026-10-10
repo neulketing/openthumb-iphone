@@ -1,0 +1,16 @@
+{
+  "name": "iphone-use",
+  "version": "0.3.8",
+  "description": "Let your coding agent operate a real iPhone over USB: guided WebDriverAgent setup, app automation, live screen and screenshot fallback.",
+  "author": { "name": "OpenThumb", "url": "https://github.com/neulketing/openthumb-iphone" },
+  "homepage": "https://github.com/neulketing/openthumb-iphone",
+  "license": "MIT",
+  "mcpServers": {
+    "iphone_use": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/iphone_use.py"],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}",
+      "env": { "PLUGIN_ROOT": "${CLAUDE_PLUGIN_ROOT}" }
+    }
+  }
+}

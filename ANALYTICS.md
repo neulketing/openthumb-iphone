@@ -1,3 +1,5 @@
+> **OpenThumb for iPhone:** analytics is off in this fork. `server/posthog.json` carries no project token, so no event leaves the machine. Everything below documents the upstream design and only applies if you supply your own token in `server/posthog.local.json`.
+
 # iPhone Use analytics
 
 PostHog organization: `iPhone-use`. Project: `653022` (US Cloud).
